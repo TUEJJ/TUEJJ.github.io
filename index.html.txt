@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/ico.png">
+    <link rel="shortcut icon" href="assets/ico.png">
+    <title>Jonathan 'TUEJJ' Heuer</title>
+    <meta name="apple-mobile-web-app-title" content="Jonathan 'TUEJJ' Heuer">
+    <meta name="application-name" content="Jonathan 'TUEJJ' Heuer">
+    <meta name="twitter:title" content="Jonathan 'TUEJJ' Heuer">
+    <meta property="og:title" content="Jonathan 'TUEJJ' Heuer">
+    <meta name="description" content="A 16 year old hobby engineer & electronics enthusiast.">
+    <meta name="twitter:description" content="A 16 year old hobby engineer & electronics enthusiast.">
+    <meta property="og:description" content="A 16 year old hobby engineer & electronics enthusiast.">
+
+   
+    <meta property="og:url" content="https://revoxhere.github.io">
+    <meta name="msapplication-TileColor" content="#27ae60">
+    <meta name="theme-color" content="#27ae60">
+    <meta name="twitter:site" content="@revox_here">
+    <meta name="twitter:image" content="https://revoxhere.github.io/assets/banner.png">
+    <meta property="og:image" content="https://revoxhere.github.io/assets/banner.png">
+    <meta property="og:image:url" content="https://revoxhere.github.io/assets/banner.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://wallet.duinocoin.com/css/bulma-prefers-dark.min.css" type="text/css">
+    <script src="https://wallet.duinocoin.com/js/fontawesome.js"></script>
+    <style>
+    .link {
+        color: #27ae60;
+        text-decoration: none;
+        background-image: linear-gradient(90deg, #2ecc71, #1abc9c, #2ecc71);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: 0% 2px;
+        transition: background-size 400ms ease-in-out;
+        transition: 0.5s;
+    }
+
+    .link:hover {
+        color: #1abc9c;
+        background-size: 100% 2px;
+    }
+
+    .social {
+        color: #0083e0;
+    }
+
+    #nick_container {
+        height: 1.3em;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    .rotate,
+    .social {
+        transition: all 0.2s ease-in-out 0s;
+    }
+
+    .rotate:hover {
+        cursor: default;
+        transform: rotate(360deg);
+        transition: all 0.5s ease-in-out 0s;
+
+    }
+
+    #nick {
+        float: right;
+        display: inline-block;
+        animation: popin 2s ease-in-out infinite;
+    }
+
+    .imgshadow {
+        -webkit-filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.6));
+        -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=2, OffY=2, Color='#444')";
+        filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=2, OffY=2, Color='#444')";
+    }
+
+    .lightshadow {
+        -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.2));
+        -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#222')";
+        filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#222')";
+    }
+
+    p {
+        text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (prefers-color-scheme: light) {
+        html {
+            background-color: #FBF7F4;
+        }
+
+        .heading {
+            color: #1e272e;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .heading {
+            color: #fbfbfb;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        html {
+            zoom: 1.35;
+        }
+
+        .avatar {
+            margin-left: auto !important;
+        }
+    }
+
+    .heading {
+        margin-bottom: 0.5em !important;
+    }
+
+    @keyframes popin {
+
+        0%,
+        30% {
+            transform: translate(0px, 0px);
+
+        }
+
+        40%,
+        90% {
+            transform: translate(0px, -1.5em);
+        }
+    }
+
+    @-moz-keyframes rotate {
+        100% {
+            -moz-transform: rotate(360deg);
+        }
+    }
+
+    @-webkit-keyframes rotate {
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes rotate {
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns is-centered is-vcentered">
+                <div class="column has-text-right">
+                    <div class="columns is-multiline is-centered">
+                        <div class="column is-full">
+                            <figure class="image is-128x128 avatar">
+                                <img class="is-rounded imgshadow" src="assets/revox.jpg">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="columns is-multiline is-centered">
+                        <div class="column is-full">
+                            <div>
+                                <p class="heading mb-0"><b>Hi</b>, I'm</p>
+                                <p class="title"><b>Jonathan</b> <span class="has-text-weight-light">Heuer</span></p>
+                                <p class="subtitle">
+                                    <div id="nick_container">
+                                        also known as <b>TUEJJ</b>
+                                        <span class="has-text-weight-light" id="nick">_BS<br>_BS</span>
+                                    </div>
+                                </p>
+                                <div class="content">
+                                    <a href="https://github.com/TUEJJ" class="social lightshadow">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    &nbsp;
+                                    <a href="https://www.instagram.com/bs_tuejj/" class="social lightshadow">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    &nbsp;
+                                    <a href="https://www.youtube.com/channel/UCZohclGVDa3V0sWI2QpLeSQ" class="social lightshadow">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                    &nbsp;
+                                    <a href="https://discordapp.com/users/486523501042204682" class="social lightshadow">
+                                        <i class="fab fa-discord"></i>
+                                    </a>
+                                    &nbsp;
+                                    <a href="https://twitter.com/JBSSpace1?t=a2PEFvknq9PnPAgoyMSQYw&s=09" class="social lightshadow">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    &nbsp;
+                                    <a href="https://steamcommunity.com/profiles/76561198985922403/" class="social lightshadow">
+                                        <i class="fab fa-steam"></i>
+                                    </a>
+                                    &nbsp;
+                                    <a href="tuejj.xyz" class="social lightshadow">
+                                        <i class="fab fa-reddit"></i>
+                                    </a>
+                                    &nbsp;
+                                    <a href="j.lul.tech@gmail.com" class="social lightshadow">
+                                        <i class="fa fa-at"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns mb-0 mt-3 is-gapless">
+                <div class="column"></div>
+                <div class="column has-text-right-desktop mr-5">
+                    <div class="columns is-multiline is-centered">
+                        <div class="column is-full">
+                            <div>
+                                <p class="heading mb-0 is-size-6">ABOUT <b>ME</b></p>
+                                <div class="content">
+                                    I'm a <b id="age"></b> year old hobby engineer and electronics enthusiast living near <b>Cologne</b>, <b>Germany</b>. I'm currently in 11th grade and hopefully will finish school in 2023. Right now I'm working on a working <b>rocket engine</b>.
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+const day = 24 * 60 * 60 * 1000;
+const age = document.getElementById("age");
+
+round_to = function(precision, value) {
+    value = parseFloat(value);
+    power_of_ten = 10 ** precision;
+    return Math.round(value * power_of_ten) / power_of_ten;
+}
+
+day_diff = function(d1, d2) {
+    /* totally not borrowed from kristians page */
+    return (d2 - Date.parse(d1)) / day;
+}
+
+function update_age() {
+    age.innerHTML = round_to(8, day_diff('Feb 27, 2005 00:00:00', new Date()) / 365);
+}
+
+update_age();
+setInterval(function() {
+    update_age();
+}, 100)
+</script>
+
+</html>
